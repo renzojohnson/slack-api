@@ -1,8 +1,14 @@
 # Slack API for PHP
 
+[![Latest Version](https://img.shields.io/packagist/v/renzojohnson/slack-api.svg)](https://packagist.org/packages/renzojohnson/slack-api)
+[![PHP Version](https://img.shields.io/packagist/php-v/renzojohnson/slack-api.svg)](https://packagist.org/packages/renzojohnson/slack-api)
+[![License](https://img.shields.io/packagist/l/renzojohnson/slack-api.svg)](https://github.com/renzojohnson/slack-api/blob/main/LICENSE)
+
 Lightweight PHP wrapper for [Slack Web API](https://api.slack.com/web). Zero dependencies.
 
 Send messages, blocks, and attachments to channels. Incoming webhooks and slash command verification with HMAC-SHA256.
+
+**Author:** [Renzo Johnson](https://renzojohnson.com)
 
 ## Requirements
 
@@ -174,6 +180,13 @@ composer install
 vendor/bin/phpunit
 ```
 
+## Links
+
+- [Packagist](https://packagist.org/packages/renzojohnson/slack-api)
+- [GitHub](https://github.com/renzojohnson/slack-api)
+- [Issues](https://github.com/renzojohnson/slack-api/issues)
+- [Author](https://renzojohnson.com)
+
 ## License
 
-MIT
+MIT License. Copyright (c) 2026 [Renzo Johnson](https://renzojohnson.com).
