@@ -1,0 +1,52 @@
+{
+    "name": "renzojohnson/slack-api",
+    "description": "Lightweight PHP wrapper for Slack Web API. Send messages, blocks, and files to channels. Incoming webhooks and slash command verification. Zero dependencies.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://renzojohnson.com",
+    "keywords": [
+        "slack",
+        "slack-api",
+        "slack-webhook",
+        "slack-bot",
+        "messaging",
+        "webhook",
+        "notifications",
+        "chat",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Renzo Johnson",
+            "homepage": "https://renzojohnson.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/renzojohnson/slack-api/issues",
+        "source": "https://github.com/renzojohnson/slack-api"
+    },
+    "require": {
+        "php": "^8.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RenzoJohnson\\Slack\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenzoJohnson\\Slack\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
