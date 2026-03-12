@@ -3,7 +3,7 @@
     "description": "Lightweight PHP wrapper for Slack Web API. Send messages, blocks, and files to channels. Incoming webhooks and slash command verification. Zero dependencies.",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://renzojohnson.com",
+    "homepage": "https://renzojohnson.com/contributions/slack-api",
     "keywords": [
         "slack",
         "slack-api",
